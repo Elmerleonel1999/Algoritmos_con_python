@@ -1,4 +1,4 @@
-<h1>Algoritmos_con_python</h1>
+<h1>ALGORITMOS CON PYTHON</h1>
 <hr/>
 <p>Revisa podrian haber cosas interesantes que aprender aqui</p>
 <article>
