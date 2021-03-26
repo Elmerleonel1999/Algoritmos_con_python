@@ -21,8 +21,7 @@ def ordenamiento_por_mezcla(lista_numerica):
     mitad = len(lista_numerica) // 2
     izquierda = lista_numerica[:mitad]
     derecha = lista_numerica[mitad:]
-    # print(izquierda, " ** ", derecha , '\n')
-    
+  
     #llamada recursiva en cada mitad
     ordenamiento_por_mezcla(izquierda)
     ordenamiento_por_mezcla(derecha)
