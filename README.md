@@ -15,4 +15,12 @@
     <li>linearSearch</li>
     <li>binarySearch</li>
   </ul>
+  <hr/>
+  <h3>Archivo: algoritmosTablasDeMultiplicar.py</h3>
+  <p>Contiene los siguientes algoritmos: </p>
+  <ul>
+    <li>nTablaMultiplicar</li>
+    <li>nTablaMultiplicarRango</li>
+    <li>nTablasMultiplicar</li>
+  </ul>
 </article>
