@@ -1,0 +1,136 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "tabulate",
+        "importPath": "tabulate",
+        "description": "tabulate",
+        "isExtraImport": true,
+        "detail": "tabulate",
+        "documentation": {}
+    },
+    {
+        "label": "linearSearch",
+        "kind": 2,
+        "importPath": "algoritmosDeBusqueda",
+        "description": "algoritmosDeBusqueda",
+        "peekOfCode": "def linearSearch(numberList, objective):\n  match = False\n  for number in numberList:\n      if number == objective:\n        match = True\n        break\n  return match\n#algoritmo de busqueda binaria o BinarySearch\ndef binarySearch(numberList, objective):\n  start = numberList[0]",
+        "detail": "algoritmosDeBusqueda",
+        "documentation": {}
+    },
+    {
+        "label": "binarySearch",
+        "kind": 2,
+        "importPath": "algoritmosDeBusqueda",
+        "description": "algoritmosDeBusqueda",
+        "peekOfCode": "def binarySearch(numberList, objective):\n  start = numberList[0]\n  final = numberList[len(numberList) - 1]\n  while start <= final:\n    if start == objective:\n      return 1\n    if objective == 0:\n      print(\"no se admite el => [ 0 ] \")\n      return False\n    half = (start + final) // 2",
+        "detail": "algoritmosDeBusqueda",
+        "documentation": {}
+    },
+    {
+        "label": "ordenamiento_lineal",
+        "kind": 2,
+        "importPath": "algoritmosDeOrdenamiento",
+        "description": "algoritmosDeOrdenamiento",
+        "peekOfCode": "def ordenamiento_lineal(lista_numerica):\n  aux = 0\n  for i in range(0, len(lista_numerica) - 1):\n    for j in range(0, len(lista_numerica) - 1):\n      if lista_numerica[j] > lista_numerica[j + 1]:\n        aux = lista_numerica[j]\n        lista_numerica[j] = lista_numerica[j + 1]\n        lista_numerica[j + 1] = aux\n  return lista_numerica\n#ORDENAMIENTO POR MEZCLA",
+        "detail": "algoritmosDeOrdenamiento",
+        "documentation": {}
+    },
+    {
+        "label": "ordenamiento_por_mezcla",
+        "kind": 2,
+        "importPath": "algoritmosDeOrdenamiento",
+        "description": "algoritmosDeOrdenamiento",
+        "peekOfCode": "def ordenamiento_por_mezcla(lista_numerica):\n  if len(lista_numerica) > 1:\n    mitad = len(lista_numerica) // 2\n    izquierda = lista_numerica[:mitad]\n    derecha = lista_numerica[mitad:]\n    #llamada recursiva en cada mitad\n    ordenamiento_por_mezcla(izquierda)\n    ordenamiento_por_mezcla(derecha)\n    #iteradores de las sublistas\n    i = 0",
+        "detail": "algoritmosDeOrdenamiento",
+        "documentation": {}
+    },
+    {
+        "label": "mi_arreglo",
+        "kind": 5,
+        "importPath": "algoritmosDeOrdenamiento",
+        "description": "algoritmosDeOrdenamiento",
+        "peekOfCode": "mi_arreglo = [12,4,56,78,1,0,98,25,1,4]\ndef ordenamiento_lineal(lista_numerica):\n  aux = 0\n  for i in range(0, len(lista_numerica) - 1):\n    for j in range(0, len(lista_numerica) - 1):\n      if lista_numerica[j] > lista_numerica[j + 1]:\n        aux = lista_numerica[j]\n        lista_numerica[j] = lista_numerica[j + 1]\n        lista_numerica[j + 1] = aux\n  return lista_numerica",
+        "detail": "algoritmosDeOrdenamiento",
+        "documentation": {}
+    },
+    {
+        "label": "nTablaMultiplicar",
+        "kind": 2,
+        "importPath": "algoritmosTablasDeMutiplicar",
+        "description": "algoritmosTablasDeMutiplicar",
+        "peekOfCode": "def nTablaMultiplicar(nT):\n  for i in range(13):\n    print(f\" {nT} * {i} = \", nT * i)\n  print('\\n')\ndef nTablaMultiplicarRango(nT, rango):\n  for i in range(rango + 1):\n    print(f\" {nT} * {i} = \" , nT * i)\n  print('\\n')\ndef nTablasMultiplicar(nT_I, nT_F):\n  for i in range(nT_I, nT_F + 1):",
+        "detail": "algoritmosTablasDeMutiplicar",
+        "documentation": {}
+    },
+    {
+        "label": "nTablaMultiplicarRango",
+        "kind": 2,
+        "importPath": "algoritmosTablasDeMutiplicar",
+        "description": "algoritmosTablasDeMutiplicar",
+        "peekOfCode": "def nTablaMultiplicarRango(nT, rango):\n  for i in range(rango + 1):\n    print(f\" {nT} * {i} = \" , nT * i)\n  print('\\n')\ndef nTablasMultiplicar(nT_I, nT_F):\n  for i in range(nT_I, nT_F + 1):\n    for j in range(13):\n      print(f\" {i} * {j} = \", i * j)\n    print('\\n')\nif __name__ == \"__main__\":",
+        "detail": "algoritmosTablasDeMutiplicar",
+        "documentation": {}
+    },
+    {
+        "label": "nTablasMultiplicar",
+        "kind": 2,
+        "importPath": "algoritmosTablasDeMutiplicar",
+        "description": "algoritmosTablasDeMutiplicar",
+        "peekOfCode": "def nTablasMultiplicar(nT_I, nT_F):\n  for i in range(nT_I, nT_F + 1):\n    for j in range(13):\n      print(f\" {i} * {j} = \", i * j)\n    print('\\n')\nif __name__ == \"__main__\":\n  nTablaMultiplicar(5)\n  nTablasMultiplicar(2,3)\n  nTablaMultiplicarRango(4,20)",
+        "detail": "algoritmosTablasDeMutiplicar",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "ConsultaApi",
+        "description": "ConsultaApi",
+        "peekOfCode": "data = []\n# aqui obtengo el nombre de pikachu solicitandolo a la api de pokemon\n# response = rq.get(\"https://pokeapi.co/api/v2/pokemon/25\")\n# rs = response.json()\n# rs2 = rs[\"forms\"][0][\"name\"]\n# print(rs2)\nresponse2 = rq.get(\"https://pokeapi.co/api/v2/pokemon?limit=100\")\nres = response2.json()\nfor i in range(25):\n  data.append([i + 1, res[\"results\"][i][\"name\"], res[\"results\"][i][\"url\"]])",
+        "detail": "ConsultaApi",
+        "documentation": {}
+    },
+    {
+        "label": "response2",
+        "kind": 5,
+        "importPath": "ConsultaApi",
+        "description": "ConsultaApi",
+        "peekOfCode": "response2 = rq.get(\"https://pokeapi.co/api/v2/pokemon?limit=100\")\nres = response2.json()\nfor i in range(25):\n  data.append([i + 1, res[\"results\"][i][\"name\"], res[\"results\"][i][\"url\"]])\ntabla = tabulate(data, headers=[\"Nº\", \"NAME\", \"URL\"])\nprint(\"\\n\\n\", tabla, \"\\n\\n\")",
+        "detail": "ConsultaApi",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ConsultaApi",
+        "description": "ConsultaApi",
+        "peekOfCode": "res = response2.json()\nfor i in range(25):\n  data.append([i + 1, res[\"results\"][i][\"name\"], res[\"results\"][i][\"url\"]])\ntabla = tabulate(data, headers=[\"Nº\", \"NAME\", \"URL\"])\nprint(\"\\n\\n\", tabla, \"\\n\\n\")",
+        "detail": "ConsultaApi",
+        "documentation": {}
+    },
+    {
+        "label": "tabla",
+        "kind": 5,
+        "importPath": "ConsultaApi",
+        "description": "ConsultaApi",
+        "peekOfCode": "tabla = tabulate(data, headers=[\"Nº\", \"NAME\", \"URL\"])\nprint(\"\\n\\n\", tabla, \"\\n\\n\")",
+        "detail": "ConsultaApi",
+        "documentation": {}
+    },
+    {
+        "label": "Fibonachi",
+        "kind": 2,
+        "importPath": "serieFibonachi",
+        "description": "serieFibonachi",
+        "peekOfCode": "def Fibonachi(n):\n  rs = []\n  x = 0\n  y = 1\n  z = 1\n  for i in range(n + 1):\n    z = x + y\n    rs.append(z)\n    print(x, \"  \", y , \"  \", rs)\n    x = y",
+        "detail": "serieFibonachi",
+        "documentation": {}
+    }
+]

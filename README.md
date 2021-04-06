@@ -29,4 +29,10 @@
   <ul>
     <li>Fibonachi</li>
   </ul>
+  <hr/>
+  <h3>Archivo: ConsultaApi.py</h3>
+  <p>Contiene los siguientes algoritmos: </p>
+  <ul>
+    <li>Consulta a la Api de Pokemon [ PokeAPI ]</li>
+  </ul>
 </article>
