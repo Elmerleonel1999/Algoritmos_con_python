@@ -23,4 +23,10 @@
     <li>nTablaMultiplicarRango</li>
     <li>nTablasMultiplicar</li>
   </ul>
+  <hr/>
+  <h3>Archivo: serieFibonachi.py</h3>
+  <p>Contiene los siguientes algoritmos: </p>
+  <ul>
+    <li>Fibonachi</li>
+  </ul>
 </article>
